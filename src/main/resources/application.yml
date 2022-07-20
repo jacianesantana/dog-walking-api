@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: dog-walking-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/dogwalking?createDatabaseIfNotExist=true
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
